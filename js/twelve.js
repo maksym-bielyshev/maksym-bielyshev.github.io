@@ -1,6 +1,6 @@
 var myCards = document.getElementById('container');
 var resultsArray = [];
-var counter = 0;
+var counter = 00;
 var text = document.getElementById('text');
 var seconds = 00;
 var tens = 00;
