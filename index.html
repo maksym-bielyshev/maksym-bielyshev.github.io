@@ -14,7 +14,6 @@
         font-size: 55px;
         font-family: 'Spectral', serif;
         color: white;
-        background-color: #0f4c81;
         line-height: 1;
         text-align: center;
         position: fixed;
@@ -46,5 +45,14 @@
   <div id="body">
     MAKSYM BIELYSHEV
   <div>
+<script>
+  var colors = ['#1D4E89', '#FA7268', '#645394', '#91B54D', '#F7CAC9', '#92A8D1', '#955251', '#B163A3', '#009874', '#E2492F', '#D65076', '#45B8AC', '#EFC050', '#5B5EA6', '#9B2335', '#DFCFBE', '#53B0AE', '#E2583E', '#7FCDCD', '#BC243C', '#C3447A', '#98B4D4'];
+
+  var changeBackground = function() {
+    document.body.style.background = colors[Math.floor(Math.random()*colors.length)];
+};
+
+changeBackground();
+</script>
 </body>
 </html>
